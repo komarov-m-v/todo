@@ -1,0 +1,25 @@
+.todo {
+  gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.todo__head {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo__field {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo__field input {
+  flex: auto;
+}
+
+.todo__title {
+  width: 100%;
+  text-align: center;
+}

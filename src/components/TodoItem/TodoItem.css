@@ -1,0 +1,27 @@
+.todo-item {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.todo-item__content {
+  flex: auto;
+  display: flex;
+  align-items: center;
+}
+
+.todo-item__label {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item__label input {
+  flex: auto;
+}
+
+.todo-item__btns {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+}
